@@ -1,0 +1,12 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerContainer{
+    border:1px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
