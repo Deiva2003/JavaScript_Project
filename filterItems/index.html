@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchContainer">
+            <input type="text" name="" id="searchText">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="filterItems">
+            <button class="filters" onclick="searchfn('all')">All</button>
+            <button class="filters" onclick="searchfn('shirts')">Shirts</button>
+            <button class="filters" onclick="searchfn('pants')">Pants</button>
+            <button class="filters" onclick="searchfn('shorts')">Shorts</button>
+        </div>
+        <div class="display" id="display"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

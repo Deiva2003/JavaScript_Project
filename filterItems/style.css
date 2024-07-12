@@ -1,0 +1,14 @@
+#display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 50px;
+}
+.hide{
+    display: none;
+}
